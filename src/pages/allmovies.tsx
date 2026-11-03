@@ -9,6 +9,7 @@ export default function AllMovies(){
 
   const trendingMovies=Object.values(allContent).filter(m => m.type === 'movie');
 
+
 return(
     <>
 <h1 className="text-3xl text-white  text-center pt-40 mb-20 ">ALL TERENDING MOVIES</h1>

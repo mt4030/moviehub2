@@ -36,7 +36,6 @@ export default function CarouselComponent({ items }:any) {
           ))}
         </CarouselContent>
 
-        {/* Buttons hidden on mobile, visible on md+ */}
         <CarouselPrevious className="hidden md:flex cursor-pointer" />
         <CarouselNext className="hidden md:flex  cursor-pointer" />
       </Carousel>
